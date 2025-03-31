@@ -13,4 +13,4 @@ Console.WriteLine($"Digite o Custo da Energia (em R$/kWh): ");
      custoEnergia = Convert.ToDouble(Console.ReadLine()!);
 
      custoMes = usoDiario * consumo * custoEnergia;
-   Console.WriteLine($"Custo estimado (R$): {custoMes}");
+   Console.WriteLine($"Custo estimado (R$): {custoMes:C2}");
